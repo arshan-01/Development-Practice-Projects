@@ -1,0 +1,62 @@
+.myName {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.todo__main {
+  color: rgb(20, 17, 17);
+  background: rgb(238, 235, 235);
+  width: 70%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px 100px 0px;
+}
+
+.todo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task-list > li {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.task-list > li > span {
+  /* width: 80%; */
+  inline-size: 200px;
+  overflow-wrap: break-word;
+}
+
+#add {
+  background: rgb(86, 51, 241);
+  color: white;
+  padding: 7px 25px;
+  margin-left: 20px;
+  border: 1px solid rgb(86, 51, 241);
+  border-radius: 40px;
+}
+.editBtn {
+  cursor: pointer;
+  background: blueviolet;
+  color: white;
+  padding: 7px 25px;
+  margin-right: 20px;
+  border: 1px solid rgb(157, 80, 230);
+  border-radius: 40px;
+}
+.deleteBtn {
+  cursor: pointer;
+  background: rgb(224, 56, 56);
+  color: white;
+  padding: 7px 20px;
+  border: 1px solid rgb(224, 56, 56);
+  border-radius: 40px;
+}

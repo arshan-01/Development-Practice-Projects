@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO APP JAVASCRIPT</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="todo__main">
+        <h2 class="myName">ARSHAN'S TODO</h2>
+        <form id="form">
+          <div class="todo">
+            <input
+              type="text"
+              id="input"
+              style="width: 300px; height: 23px; background: transparent"
+            />
+            <button type="submit" id="add">Save</button>
+            <br />
+            <span id="validate-msg" style="color: red"></span>
+          </div>
+        </form>
+        <ul class="task-list" id="task-list"></ul>
+        <hr />
+        <h1>Completed Task</h1>
+        <ul class="task-list" id="complete-task"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
