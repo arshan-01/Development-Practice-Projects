@@ -73,7 +73,7 @@ function acceptData() {
     editModeComplete = false;
   } else {
     let uid = Date.now().toString(36) + Math.random().toString(36).substr(2);
-    todo.push({
+    todo.unshift({
       id: uid,
       task: input.value,
     });
@@ -153,7 +153,7 @@ function CheckTask(e) {
   filterTodo = todo.find((todo) => todo.id === e.id);
   todo = todo.filter((todo) => todo.id !== filterTodo.id);
   // console.log(filterTodo);
-  CompleteTodo.push({
+  CompleteTodo.unshift({
     id: filterTodo.id,
     task: filterTodo.task,
   });
@@ -194,7 +194,7 @@ function unCheckTask(x) {
   let filterTodo = CompleteTodo.find((todo) => todo.id === x.id);
   CompleteTodo = CompleteTodo.filter((todo) => todo.id !== filterTodo.id);
 
-  todo.push({
+  todo.unshift({
     id: filterTodo.id,
     task: filterTodo.task,
   });

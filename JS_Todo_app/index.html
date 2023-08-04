@@ -13,14 +13,15 @@
         <h2 class="myName">ARSHAN'S TODO</h2>
         <form id="form">
           <div class="todo">
+            <div class="todo__input">
             <input
               type="text"
               id="input"
               style="width: 300px; height: 23px; background: transparent"
             />
+            <div id="validate-msg" style="color: red"></div>
+          </div>
             <button type="submit" id="add">Save</button>
-            <br />
-            <span id="validate-msg" style="color: red"></span>
           </div>
         </form>
         <ul class="task-list" id="task-list"></ul>

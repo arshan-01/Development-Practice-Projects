@@ -22,6 +22,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .task-list > li {
   width: 600px;
   display: flex;

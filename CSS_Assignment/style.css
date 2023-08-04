@@ -1,0 +1,400 @@
+/* Assigment 1 */
+
+.assigment1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.marksheet_table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+}
+.marksheet_table td,
+.marksheet_table th {
+  padding: 8px;
+}
+.marksheet_table tr {
+  border: 2px solid rgba(10, 11, 7, 255);
+  padding: 8px;
+}
+.marksheet_table th,
+.marksheet_table td {
+  border-right: 1px solid rgba(10, 11, 7, 255);
+}
+.marksheet_table thead tr:first-child {
+  background-color: #80b327;
+  color: white;
+  text-transform: capitalize;
+}
+.marksheet_table thead tr:first-child {
+  background-color: #80b327;
+  color: white;
+  text-transform: uppercase;
+}
+.marksheet_table thead tr:nth-child(2) {
+  background-color: #c5fde3;
+  color: #690000;
+}
+.marksheet_table tbody tr td:first-child {
+  text-align: left;
+}
+.marksheet_table tbody tr td:not(:first-child) {
+  text-align: center;
+}
+
+.marksheet_table tbody tr td:nth-child(even) {
+  background-color: #e4ffb7;
+}
+
+.marksheet_table tbody tr:hover td:not(:first-child) {
+  background-color: #a7fd17;
+}
+.marksheet_table tbody tr:hover td:first-child {
+  background-color: #000000;
+  color: #dddddd;
+}
+.marksheet_table tbody tr:hover td:not(:first-child) {
+  border: 1px solid #0a0b07;
+}
+
+.marksheet_table tbody tr td:not(:first-child) {
+  color: #156377;
+}
+.marksheet_table tbody tr td:first-child {
+  background-color: #dddddd;
+  color: #226597;
+}
+
+/* Assigment 2 */
+
+.assigment2 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://cdni.autocarindia.com/utils/imageresizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/Hyundai-Grand-i10-Nios-200120231541.jpg&w=350&h=251&q=90&c=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.hero {
+  height: 100vh;
+  width: 30%;
+  background: rgba(14, 13, 6, 0.6);
+  display: flex;
+  flex-direction: column;
+
+  padding: 40px 20px;
+}
+.hero__content {
+  width: 90%;
+  margin: auto;
+  color: #ffffff;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Assigment 3 */
+.assigment3 {
+  background: #e4ffb7;
+  position: relative;
+}
+nav {
+  width: 100%;
+  display: flex;
+  padding: 20px 30px;
+  align-items: center;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu .menu-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: rgba(186, 186, 183, 0.6);
+  width: 180px;
+}
+.menu-item:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu-item {
+  padding: 10px;
+}
+.sub-menu-item:hover {
+  background-color: rgba(186, 186, 183, 0.8);
+}
+.boxes {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+}
+
+.box {
+  width: 80%;
+  height: 200px;
+}
+
+.box-1 {
+  background-color: #ff0000;
+}
+
+.box-2 {
+  background-color: #00ff00;
+}
+
+.box-3 {
+  background-color: #0000ff;
+}
+
+.box-4 {
+  background-color: #ff00ff;
+}
+
+.box-5 {
+  background-color: #ffff00;
+}
+
+.box-6 {
+  background-color: #00ffff;
+}
+
+.box-7 {
+  background-color: #ff8000;
+}
+
+.box-8 {
+  background-color: #8000ff;
+}
+
+.box-9 {
+  background-color: #008000;
+}
+.final {
+  height: 100vh;
+}
+.candidate_form {
+  background: #ffffff;
+  height: fit-content;
+  padding: 30px;
+}
+.form-data {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: rgba(237, 222, 201, 0.9);
+  width: 25%;
+  padding: 50px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 70%;
+}
+.form-group label {
+  margin-bottom: 5px;
+}
+.form-group input {
+  border: none;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+/* Final Assignment  */
+
+.form_parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 40%;
+  margin: auto;
+  margin-top: 100px;
+  border: 1px solid #000000;
+  padding: 30px;
+  display: none;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  position: relative;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.menu-item:hover:not(:nth-last-child(2)) {
+  background-color: #1999eb;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.sub-menu-item {
+  padding: 5px 0;
+}
+
+.menu-item:not(:last-child):hover .sub-menu {
+  display: block;
+}
+.progress-bar {
+  width: 10%;
+  height: 20px;
+  background-color: #f1cece;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #1999eb;
+  width: 50%; /* Adjust the width as needed */
+  transition: width 0.3s ease-in-out;
+}
+
+.candidate_form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.candidate_form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.candidate_form input[type="text"],
+.candidate_form input[type="email"],
+.candidate_form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.candidate_form p {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.candidate_form a {
+  text-decoration: none;
+  color: #1999eb;
+}
+
+.candidate_form span {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.candidate_form input[type="time"] {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.candidate_form select {
+  appearance: none;
+  padding: 8px;
+  background: #fff
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23333' width='18px' height='18px'><path d='M7 10l5 5 5-5z'/></svg>")
+    no-repeat right 8px center;
+  background-size: 18px 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.candidate_form select:focus {
+  outline: none;
+  border-color: #1999eb;
+}
+.buttons {
+  width: 20%;
+  display: flex;
+  align-content: flex-end;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-left: auto;
+}
+.buttons button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1999eb;
+  color: #fff;
+  cursor: pointer;
+  margin: 15px;
+}
+.showModal {
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .boxes {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class=" w-100" style="color: black;">
+        <nav class="navbar navbar-expand-lg navtopp navbar-light bg-light w-100" >
+          
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="material-icons" id="expandIcon">expand_more</i>
+          </button>
+         
+          <div class="collapse navbar-collapse " id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="color: black; margin-left: 10px;">
+                <li class="nav-item"><a  href="#" class="nav-link link-dark px-2 active line" aria-current="page" ><i class="fa-solid fa-phone" style="color: #9B9FA6;"></i><span class="phone" style="color: black;"> 1234567890</span></a></li>
+                <li class="nav-item"><a  href="mailto:arshannawaz.one@gmail.com" class="nav-link link-dark px-2 line"><i class="fa-regular fa-envelope" style="color: #9B9FA6;"></i><span class="phone" style="color: black;"> arshannawaz.one@gmail.com</span></a></li>
+                <li class="nav-item"><a  href="#" class="nav-link link-dark px-2 line"><i class="fa-regular fa-clock" style="color: #9B9FA6;"></i><span class="phone" style="color: black;"> Mon - Fri 9:00 - 18:00</span></a></li>
+                <li class="nav-item line" ></li>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item line" ></li>
+              <li class="nav-item"><a href="#" class="nav-link link-dark px-2 " ><i class="fa-brands fa-facebook-f " style="color: #9B9FA6;   "></i></a></li>
+              <li class="nav-item line"></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid px-5">
+          <div class="d-flex">
+            <a class="navbar-brand" href="#">
+              <img
+                src="https://e7.pngegg.com/pngimages/242/59/png-clipart-bootstrap-logo-css3-butta-template-blue-thumbnail.png"
+                alt="Bootstrap"
+                width="50"
+                height="50"
+              />
+            </a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Expertise"
+                  aria-current="page"
+                  href="#"
+                  >Expertise</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Services"
+                  aria-current="page"
+                  href="#"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Projects"
+                  aria-current="page"
+                  href="#"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="About"
+                  aria-current="page"
+                  href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Blogs"
+                  aria-current="page"
+                  href="#"
+                  >Blogs</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Contacts"
+                  aria-current="page"
+                  href="#"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero fade-in">
+      <div class="right-hero fade-in">
+        <h5 id="constructionHeading"></h5>
+        <p id="constructionText">
+         
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="About Us"
+          aria-current="page"
+        >
+          About US
+        </button>
+      </div>
+      <i class="material-icons arrowPre" id="prevBtn">arrow_back_ios</i>
+      <i class="material-icons arrowFwd" id="nextBtn">arrow_forward_ios</i>
+    </section>
+    <section class="bottom-hero-main px-5">
+      <div class="bottom-hero py-5">
+        <div class="bottom-hero-left">
+          <img
+            src="https://png.pngtree.com/png-vector/20190701/ourmid/pngtree-reports-icon-for-your-project-png-image_1532801.jpg"
+            alt=""
+          />
+          <div class="bottom-hero-left-item">
+            <h6>Do you have a project?</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+              commodi, illo unde beatae asperiores deserunt.
+            </p>
+          </div>
+        </div>
+        <div class="bottom-hero-right">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-toggle="tooltip"
+            data-placement="top"
+            title=" Request a Quote"
+            aria-current="page"
+            style="
+              padding: 10px 20px;
+              border-radius: 25px;
+              background: rgb(202, 150, 82);
+              border: none;
+            "
+          >
+            Request a Quote
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="expertise">
+      <div class="expertise-content">
+        <h3>our expertise</h3>
+        <p class="expertise-main-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content. Some quick example text to build on the
+          card title and make up the bulk of the card's content.
+        </p>
+      </div>
+
+      <div class="container">
+        <div
+          class="row d-flex flex-row flex-sm-column align-items-center justify-content-center flex-lg-row"
+        >
+          <div class="col-sm-4">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1666919643134-d97687c1826c?ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
+                class="card-img-top"
+                alt="Image 1"
+              />
+              <div class="card-body">
+                <h4 class="card-title">New Build</h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1666919643134-d97687c1826c?ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
+                class="card-img-top"
+                alt="Image 2"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Extensions</h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1666919643134-d97687c1826c?ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
+                class="card-img-top"
+                alt="Image 3"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Lower Conversion</h4>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-main">
+      <div class="about-content">
+        <h3>About Us</h3>
+        <p class="about-main-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content. Some quick example text to build on the
+          card title and make up the bulk of the card's content.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row d-flex justify-content-around align-items-center">
+          <div class="col-md-6">
+            <div class="about-left">
+              <div class="img-circle">
+                <img
+                  class="img-fluid"
+                  src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about-right">
+              <div class="about-right-item">
+                <img
+                  src="https://images.unsplash.com/photo-1687175452114-3a4fc0664df3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <div class="about-right-content">
+                  <h4>Over 15 Years Of Experience</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sunt, blanditiis cupiditate repellat laborum facere fugiat.
+                  </p>
+                </div>
+              </div>
+              <div class="about-right-item">
+                <img
+                  src="https://images.unsplash.com/photo-1687175452114-3a4fc0664df3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <div class="about-right-content">
+                  <h4>Best Material</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sunt, blanditiis cupiditate repellat laborum facere fugiat.
+                  </p>
+                </div>
+              </div>
+              <div class="about-right-item">
+                <img
+                  src="https://images.unsplash.com/photo-1687175452114-3a4fc0664df3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <div class="about-right-content">
+                  <h4>Professional Standards</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sunt, blanditiis cupiditate repellat laborum facere fugiat.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="commitment-main">
+      <div class="commitment mt-5">
+        <div
+          class="commitment-top-tooltip"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Experience"
+        >
+          <div class="commitment-top-content">
+            <img
+              src="https://images.unsplash.com/photo-1687175452114-3a4fc0664df3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="Image 1"
+              class="custom-img"
+            />
+          </div>
+          <div class="commitment-top-content">
+            <img
+              src="https://images.unsplash.com/photo-1687175452114-3a4fc0664df3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="Image 1"
+              class="custom-img"
+            />
+          </div>
+        </div>
+
+        <div class="commitment-top-content">
+          <img
+            src="https://images.unsplash.com/photo-1687175452114-3a4fc0664df3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt="Image 1"
+            class="custom-img"
+          />
+        </div>
+      </div>
+
+      <div class="commitment-content">
+        <h3>Commitment</h3>
+        <p class="commitment-main-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content. Some quick example text to build on the
+          card title and make up the bulk of the card's content.
+        </p>
+      </div>
+    </section>
+    <section class="main-slider" id="main-slider">
+      <div class="slider">
+        <div class="slider-cont">
+          <img src="./assets//testi.png" alt="" />
+          <p id="testi"></p>
+          <h6 id="testi-person"></h6>
+        </div>
+        <i class="material-icons" id="prev_Btn">arrow_back_ios</i>
+        <i class="material-icons" id="next_Btn">arrow_forward_ios</i>
+      </div>
+    </section>
+    <footer class="footer w-100">
+      <div class="footer-top">
+        <div class="row footer-top-row">
+          <div class="col-md-4 footer-top-col">
+            <img
+              src="https://www.iconpacks.net/icons/1/free-phone-call-icon-530-thumb.png"
+              alt=""
+            />
+            <div class="footer-top-content">
+              <span>T:0207 183183 8 <br>
+              W:0757 591 787 5
+              </span>
+             
+            </div>
+          </div>
+          <div class="col-md-4 footer-top-col">
+            <img
+              src="https://image.similarpng.com/very-thumbnail/2021/01/Location-icon-design-on-transparent-background-PNG.png"
+              alt=""
+            />
+            <div class="footer-top-content">
+              <span>A:303B High Road, Ilford United Kingdom, IG1 1NR</span>
+              </span>
+            
+            </div>
+          </div>
+          <div class="col-md-4 footer-top-col">
+            <img
+              src="https://i.pinimg.com/originals/1b/22/fd/1b22fd858e93265a3a2fa2060cfc1219.jpg"
+              alt=""
+            />
+            <div class="footer-top-content">
+              <span>E:info@macobuilders.co.uk</span>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="row footer-bottom-row">
+          <div class="col-md-4 footer-bottom-col">
+            <h5>About us</h5>
+            <div class="footer-links-underline">
+              <div class="footer-links-underline-inner"></div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+              nostrum pariatur, veritatis laudantium nesciunt assumenda ipsam
+              dolore ut corrupti iusto atque architecto adipisci unde aspernatur
+              quis labore corporis natus fugiat magni alias. Dignissimos
+              corrupti consectetur odit quia, fugiat fugit quasi veritatis, quas
+              incidunt mollitia rem cum sunt porro ullam minima.
+            </p>
+          </div>
+          <div class="col-md-4 footer-bottom-col">
+            <h5>Links</h5>
+            <div class="footer-links-underline">
+              <div class="footer-links-underline-inner"></div>
+            </div>
+            <ul  class="footer-ul">
+              <li>
+                <span class="check-icon">&#x2713;</span>
+                <a href="#" class="links">Expertise</a>
+              </li>
+              <li>
+                <span class="check-icon">&#x2713;</span>
+                <a href="#" class="links">Services</a>
+              </li>
+              <li>
+                <span class="check-icon">&#x2713;</span>
+                <a href="#" class="links">Projects</a>
+              </li>
+              <li>
+                <span class="check-icon">&#x2713;</span>
+                <a href="#" class="links">About Us</a>
+              </li>
+              <li>
+                <span class="check-icon">&#x2713;</span>
+                <a href="#" class="links">Blogs</a>
+              </li>
+              <li>
+                <span class="check-icon">&#x2713;</span>
+                <a href="#" class="links">Expertise</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 footer-bottom-col">
+            <h5>Latest Posts</h5>
+            <div class="footer-links-underline">
+              <div class="footer-links-underline-inner"></div>
+            </div>
+            <div class="latest-post">
+              <div class="post">
+                <div class="posts-left">
+                  <img
+                    src="https://images.unsplash.com/photo-1687175452114-3a4fc0664df3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt=""
+                  />
+                </div>
+                <div class="posts-right">
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <span>March 15, 2023</span>
+                </div>
+              </div>
+              <div class="post">
+                <div class="posts-left">
+                  <img
+                    src="https://images.unsplash.com/photo-1687175452114-3a4fc0664df3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt=""
+                  />
+                </div>
+                <div class="posts-right">
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <span>March 15, 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

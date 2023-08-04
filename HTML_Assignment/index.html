@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML ASSIGNMENT</title>
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 15px 5px 15px 5px;
+    }
+    th {
+      background-color: #d3d3c8;
+      border: none;
+    }
+    input::placeholder {
+      padding: 10px;
+    }
+    input {
+      border: 2px solid black;
+      border-radius: 5px;
+    }
+    input[type="text"] {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    section {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav {
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      background-color: #d3d3c8;
+    }
+    nav a {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    ul li {
+      list-style: none;
+    }
+    .form-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <div>
+      <center>
+        <h1>ASSIGNMENT 1</h1>
+      </center>
+      <table style="border: 1px solid black; width: 100%; height: max-content">
+        <tr>
+          <th>NAME</th>
+          <th>SUBJECT</th>
+          <th>MARKS</th>
+        </tr>
+        <tr>
+          <td rowspan="2">Hillary</td>
+          <td>Advanced Web</td>
+          <td>75</td>
+        </tr>
+        <tr>
+          <td>Operating System</td>
+          <td>60</td>
+        </tr>
+        <tr>
+          <td rowspan="2">lary</td>
+          <td>Advanced Web</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>Operating System</td>
+          <td>75</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="2">Total Average: 72.5</td>
+        </tr>
+      </table>
+    </div>
+    <hr />
+    <div style="width: 100%">
+      <center>
+        <h1>ASSIGNMENT 2</h1>
+      </center>
+      <h1>Student Information Form</h1>
+      <form action="#" style="width: 100%">
+        <label for="fname"></label>
+        <input
+          type="text"
+          style="width: 48%"
+          name="fname"
+          id="fname"
+          placeholder="First"
+        />
+        <label for="lname"></label>
+        <input
+          type="text"
+          style="width: 48%"
+          name="lname"
+          id="lname"
+          placeholder="Last"
+        />
+        <br />
+        <p>Level</p>
+        <input type="radio" name="level" id="School" value="High School" />
+        <label for="level">High School</label>
+        <input type="radio" name="level" id="College" value="College" />
+        <label for="level">College</label>
+        <input type="radio" name="level" id="University" value="University" />
+        <label for="level">University</label>
+        <br />
+        <p>Major</p>
+        <select
+          style="
+            width: 97%;
+            height: 40px;
+            border: 2px solid black;
+            border-radius: 5px;
+          "
+          name="major"
+          id="major"
+          multiple
+        >
+          <option value="cs">Computer Science</option>
+          <option value="it">Information Technology</option>
+          <option value="is">Information Systems</option>
+        </select>
+        <p>Address</p>
+        <input
+          style="display: block; width: 97%"
+          type="text"
+          name="street"
+          id="street"
+          placeholder="Street"
+        />
+        <br />
+        <input
+          style="width: 48%"
+          type="text"
+          name="city"
+          id="city"
+          placeholder="city"
+        />
+
+        <input
+          style="width: 48%"
+          type="text"
+          name="region"
+          id="region"
+          placeholder="region"
+        />
+        <br />
+        <br />
+        <input
+          style="width: 48%"
+          type="text"
+          name="zip"
+          id="zip"
+          placeholder="zip"
+        />
+
+        <select
+          style="
+            width: 48%;
+            height: 40px;
+            border: 2px solid black;
+            border-radius: 5px;
+          "
+          name="country"
+          id="country"
+        >
+          <option value="Pakistan">Pakistan</option>
+          <option value="India">India</option>
+          <option value="USA">USA</option>
+          <option value="France">France</option>
+        </select>
+        <br />
+        <br />
+        <div>
+          <label style="display: block; margin-bottom: 4px" for="email">
+            Email</label
+          >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            style="width: 97%; height: 30px"
+            placeholder="Email"
+          />
+        </div>
+        <div style="margin-top: 10px">
+          <input type="checkbox" name="email" id="check-email" />
+          <label for="email">Email</label>
+          <input type="checkbox" name="phone" id="phone" />
+          <label for="phone">Phone</label>
+          <input type="checkbox" name="mail" id="mail" />
+          <label for="mail">Mail</label>
+        </div>
+        <center>
+          <button
+            type="submit"
+            style="
+              background-color: rgb(101, 101, 170);
+              color: aliceblue;
+              text-align: center;
+              margin-top: 10px;
+              padding: 5px;
+              border-radius: 5px;
+              border: none;
+              width: 300px;
+              height: 50px;
+            "
+          >
+            Submit
+          </button>
+        </center>
+      </form>
+    </div>
+    <hr />
+    <div>
+      <center>
+        <h1>ASSIGNMENT 3</h1>
+      </center>
+      <section>
+        <nav style="width: 400px">
+          <img src="https://www.w3schools.com/images/w3lynx_200.png" alt="" />
+          <form class="form-section">
+            <label for="search" style="margin-top: 10px">search</label>
+            <br />
+            <input type="text" name="search" id="search" />
+
+            <button style="width: 110px; height: 20px; margin-top: 10px">
+              Search
+            </button>
+          </form>
+          <ul>
+            <li><a href="#">Home Page</a></li>
+            <br />
+            <li><a href="#">Paris</a></li>
+            <li><a href="#">Tokyo</a></li>
+            <li><a href="#">London</a></li>
+            <br />
+            <li><a href="#">Paris</a></li>
+            <li><a href="#">Tokyo</a></li>
+          </ul>
+        </nav>
+
+        <article style="text-align: justify; padding: 50px">
+          <img
+            src="https://tpc.googlesyndication.com/simgad/8169744333071237861"
+            alt=""
+          />
+          <p style="text-align: justify">
+            London is the capital city of England. It is the most populous city
+            in the United Kingdom, with a metropolitan area of over 13 million
+            inhabitants. London is the capital city of England. It is the most
+            populous city in the United Kingdom, with a metropolitan area of
+            over 13 million inhabitants. London is the capital city of England.
+            It is the most populous city in the United Kingdom, with a
+            metropolitan area of over 13 million inhabitants. London is the
+            capital city of England. It is the most populous city in the United
+            Kingdom, with a metropolitan area of over 13 million inhabitants.
+          </p>
+          <p style="text-align: justify">
+            London is the capital city of England. It is the most populous city
+            in the United Kingdom, with a metropolitan area of over 13 million
+            inhabitants. London is the capital city of England. It is the most
+            populous city in the United Kingdom, with a metropolitan area of
+            over 13 million inhabitants. London is the capital city of England.
+            It is the most populous city in the United Kingdom, with a
+            metropolitan area of over 13 million inhabitants. London is the
+            capital city of England. It is the most populous city in the United
+            Kingdom, with a metropolitan area of over 13 million inhabitants.
+          </p>
+          <p style="text-align: justify">
+            Standing on the River Thames, London has been a major settlement for
+            two millennia, its history going back to its founding by the Romans,
+            who named it Londinium.
+          </p>
+          <ul>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut,
+              laudantium!
+            </li>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut,
+              laudantium!
+            </li>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut,
+              laudantium!
+            </li>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut,
+              laudantium!
+            </li>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut,
+              laudantium!
+            </li>
+          </ul>
+          <p style="text-align: justify">
+            London is the capital city of England. It is the most populous city
+            in the United Kingdom, with a metropolitan area of over 13 million
+            inhabitants. London is the capital city of England. It is the most
+            populous city in the United Kingdom, with a metropolitan area of
+            over 13 million inhabitants. London is the capital city of England.
+            It is the most populous city in the United Kingdom, with a
+            metropolitan area of over 13 million inhabitants. London is the
+            capital city of England. It is the most populous city in the United
+            Kingdom, with a metropolitan area of over 13 million inhabitants.
+          </p>
+        </article>
+      </section>
+    </div>
+  </body>
+</html>
